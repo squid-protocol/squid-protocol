@@ -29,4 +29,4 @@ Translating complex systems—whether that's calculating risk exposures from sto
 ![Raspberry Pi](https://img.shields.io/badge/-RaspberryPi-C51A4A?style=for-the-badge&logo=Raspberry-Pi)
 
 ### 📊 GitHub Analytics
-[![Joe's GitHub Stats](https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+[![squid-protocol's GitHub Stats](https://github-readme-stats.vercel.app/api?username=squid-protocol&show_icons=true&theme=radical)](https://github.com/squid-protocol)
