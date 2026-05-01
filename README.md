@@ -1,32 +1,40 @@
-# Hi, I'm Joe. 👋
+# Joe Esquibel 🦑
+**Educator, Scientist, and Deep-Tech Systems Builder**
 
-I am a tenured Biology Professor and deep-tech systems builder. I translate a decade of academic research and scientific rigor into high-velocity software, custom embedded systems, and distributed hardware automation. 
+I am a tenured Biology Professor (Ph.D.) pivoting a decade of scientific research and another decade of teaching into open-source hardware and software engineering. 
 
-### 🔭 The Telescope vs. The Microscope
-Software engineering is trapped in its own Smith-Waterman era—obsessed with the mathematically perfect but computationally heavy Abstract Syntax Tree (AST). 
+My foundation is in the physical sciences—specifically, molecular and cellular pharmacology with **assay development**, **state-of-the-art microscopy**, and building **quantitative data pipelines for super-resolution microscopy**. Today, I apply that same rigorous, methodical approach to engineering. Whether I am building distributed bare-metal robotics or mapping enterprise software monoliths, I build systems that connect atoms to algorithms.
 
-In many ways, Code can be though of as a living, mutating organism (git history). To analyze it at repository scale, I built **blAST (Bypassing LLMs and AST engine)** for **GitGalaxy**. By abandoning the compiler bottleneck and applying deterministic search strategies to code, GitGalaxy maps intent and cognitive load across 50+ languages at over 100,000 lines of code per second. We traded the microscope for a telescope.
+I approach engineering through a systems-level lens, prioritizing transparent information flow and deterministic architecture. My workflow heavily leverages AI as a rapid-prototyping sounding board, allowing me to iterate on complex ideas at high velocity. I am comfortable building across the entire spectrum—from bare-metal hardware and backend algorithms to interactive front-ends. I am technology-agnostic; rather than tying myself to a specific framework, I let the problem dictate the stack, building whatever is necessary to drive a system from concept to completion.
 
-### 🔭 Currently Working On
-* **GitGalaxy:** An AST-free LLM-free deterministic knowledge graph engine for deep repository intelligence. Designed to map, secure, and modernize enterprise codebases across 50+ languages at extreme velocity.
-* **Embedded Systems & Robotics:** Engineering custom MicroPython kernels and building distributed hardware automation (including a multi-node Raspberry Pi and Pico network for industrial-scale sorting).
-* **Agri-Tech Hardware:** Developing passive guardian systems, like solar-powered environmental monitoring stations for agricultural hoop houses.
+---
 
-### 🛠️ Core Stack & Environment
-* **Languages:** Python, C/C++ (kernel level), Java Spring Boot
-* **Systems:** Linux native (Mint Cinnamon, Raspberry Pi OS), robust SSH and server fleet management
-* **Hardware:** Raspberry Pi 5, Picos, Arduino, custom PCBs, servos, and sensor arrays
+## 🔭 Featured Systems & Architecture
 
-### ⚡ Ask Me About
-Translating complex systems—whether that's calculating risk exposures from stoichiometric signatures or modernizing legacy COBOL/JCL architecture into modern frameworks.
+Here is a look at what I build. Click the images below to watch the video demonstrations.
 
-### 🛠️ Core Stack
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![MicroPython](https://img.shields.io/badge/MicroPython-2B2E33?style=for-the-badge&logo=python&logoColor=white)
-![Linux Mint](https://img.shields.io/badge/Linux_Mint-87C540?style=for-the-badge&logo=linuxmint&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/-RaspberryPi-C51A4A?style=for-the-badge&logo=Raspberry-Pi)
+| **[GitGalaxy Engine](https://github.com/squid-protocol/gitgalaxy)** | **[No-Number Clock](https://github.com/squid-protocol/No_number_clock)** |
+| :---: | :---: |
+| [![GitGalaxy Rails Demo](https://img.youtube.com/vi/XWWSd8LmoCM/maxresdefault.jpg)](https://youtu.be/XWWSd8LmoCM) | [![No Number Clock Demo](https://img.youtube.com/vi/xWCVrFAyhkw/maxresdefault.jpg)](https://youtu.be/xWCVrFAyhkw) |
+| **Codebase Cartography at Scale**<br>Visualizing the 3M+ line Ruby on Rails architecture. GitGalaxy is an AST-free, LLM-free heuristic knowledge graph engine for deep repository intelligence. | **Fractional Stepper Motor Control**<br>A visual, C++ assistive-tech timer that uses a custom sub-integer algorithm to drive an Arduino winch at ultra-slow speeds (0.3 RPM) without crashing. |
 
-### 📊 GitHub Analytics
-[![squid-protocol's GitHub Stats](https://github-readme-stats.vercel.app/api?username=squid-protocol&show_icons=true&theme=radical)](https://github.com/squid-protocol)
+---
+
+## ⚙️ Hardware, Physics & Automation
+
+Beyond architecture mapping, I build industrial and educational automation systems:
+
+* 🐢 **[meow-turtle](https://github.com/squid-protocol/meow-turtle):** An industrial-grade, distributed SMP sorting framework for small parts. Features a bare-metal MicroPython architecture running on RP2350s (Raspberry Pi Pico 2).
+* 🧬 **[sorting_evolution_algorithm](https://github.com/squid-protocol/sorting_evolution_algorithm):** A high-performance Genetic Algorithm (GA) coupled with a Matter.js physics engine to automate the design of physical sorting machinery.
+* 🧮 **[math_facts](https://github.com/squid-protocol/math_facts):** A gamified, zero-wait educational tracker built with Python, Flask, and Plotly.js to turn rapid-fire math practice into interactive speed dashboards.
+
+---
+
+## 📬 Connect & Learn More
+
+I am currently seeking roles in prototyping, systems architecture, and deep-tech engineering remotely or in the Grand Rapids, MI area. 
+
+* 🌐 **Website & 3D Visualizer:** [GitGalaxy.io](https://gitgalaxy.io/)
+* 💼 **LinkedIn:** [joseph-esquibel-87466347](https://www.linkedin.com/in/joseph-esquibel-87466347)
+* 📦 **PyPI:** [gitgalaxy package](https://pypi.org/project/gitgalaxy/)
+* 🔬 **Scientific Research:** [PubMed Publications](https://pubmed.ncbi.nlm.nih.gov/?term=esquibel+joseph)
