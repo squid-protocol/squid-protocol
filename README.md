@@ -11,11 +11,18 @@ I approach engineering through a systems-level lens, prioritizing transparent in
 
 ## 🔭 Featured Systems & Architecture
 
+---
+
+## 🔭 Featured Systems & Architecture
+
 Here is a look at what I build. Click the images below to watch the video demonstrations.
 
 | **[blAST Static Analysis Engine](https://github.com/squid-protocol/gitgalaxy)** | **[Small Parts Evolutionary Sorter](https://github.com/squid-protocol/sorting_evolution_algorithm)** | **[No-Number Clock](https://github.com/squid-protocol/No_number_clock)** |
 | :---: | :---: | :---: |
-| [![GitGalaxy Rails Demo](https://img.youtube.com/vi/XWWSd8LmoCM/maxresdefault.jpg)](https://youtu.be/XWWSd8LmoCM) | [![Project S34 Demo](https://img.youtube.com/vi/g3T9_7ois08&t/maxresdefault.jpg)](https://www.youtube.com/watch?v=g3T9_7ois08&t) | [![No Number Clock Demo](https://img.youtube.com/vi/xWCVrFAyhkw/maxresdefault.jpg)](https://youtu.be/xWCVrFAyhkw) |
+| [![GitGalaxy Rails Demo](https://img.youtube.com/vi/XWWSd8LmoCM/maxresdefault.jpg)](https://youtu.be/XWWSd8LmoCM) | [![Project S34 Demo](https://img.youtube.com/vi/g3T9_7ois08/maxresdefault.jpg)](https://www.youtube.com/watch?v=g3T9_7ois08&t=5s) | [![No Number Clock Demo](https://img.youtube.com/vi/xWCVrFAyhkw/maxresdefault.jpg)](https://youtu.be/xWCVrFAyhkw) |
+| **Codebase Cartography at Scale**<br>Visualizing the 3M+ line Ruby on Rails architecture. GitGalaxy is an AST-free, LLM-free heuristic knowledge graph engine for deep repository intelligence. | **AI-Driven Mechanical Design**<br>A high-performance Genetic Algorithm (GA) coupled with a headless Matter.js physics engine to automate the design of physical sorting machinery. | **Fractional Stepper Motor Control**<br>A visual, C++ assistive-tech timer that uses a custom sub-integer algorithm to drive an Arduino winch at ultra-slow speeds (0.3 RPM) without crashing. |
+
+---
 | **Codebase Cartography at Scale**<br>Visualizing the 3M+ line Ruby on Rails architecture. GitGalaxy is an AST-free, LLM-free heuristic knowledge graph engine for deep repository intelligence. | **AI-Driven Mechanical Design**<br>A high-performance Genetic Algorithm (GA) coupled with a headless Matter.js physics engine to automate the design of physical sorting machinery. | **Fractional Stepper Motor Control**<br>A visual, C++ assistive-tech timer that uses a custom sub-integer algorithm to drive an Arduino winch at ultra-slow speeds (0.3 RPM) without crashing. |
 
 ---
