@@ -11,10 +11,6 @@ I approach engineering through a systems-level lens, prioritizing transparent in
 
 ## 🔭 Featured Systems & Architecture
 
----
-
-## 🔭 Featured Systems & Architecture
-
 Here is a look at what I build. Click the images below to watch the video demonstrations.
 
 | **[blAST Static Analysis Engine](https://github.com/squid-protocol/gitgalaxy)** | **[Small Parts Evolutionary Sorter](https://github.com/squid-protocol/sorting_evolution_algorithm)** | **[No-Number Clock](https://github.com/squid-protocol/No_number_clock)** |
