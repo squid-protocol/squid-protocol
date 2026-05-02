@@ -13,10 +13,10 @@ I approach engineering through a systems-level lens, prioritizing transparent in
 
 Here is a look at what I build. Click the images below to watch the video demonstrations.
 
-| **[GitGalaxy Engine](https://github.com/squid-protocol/gitgalaxy)** | **[No-Number Clock](https://github.com/squid-protocol/No_number_clock)** |
-| :---: | :---: |
-| [![GitGalaxy Rails Demo](https://img.youtube.com/vi/XWWSd8LmoCM/maxresdefault.jpg)](https://youtu.be/XWWSd8LmoCM) | [![No Number Clock Demo](https://img.youtube.com/vi/xWCVrFAyhkw/maxresdefault.jpg)](https://youtu.be/xWCVrFAyhkw) |
-| **Codebase Cartography at Scale**<br>Visualizing the 3M+ line Ruby on Rails architecture. GitGalaxy is an AST-free, LLM-free heuristic knowledge graph engine for deep repository intelligence. | **Fractional Stepper Motor Control**<br>A visual, C++ assistive-tech timer that uses a custom sub-integer algorithm to drive an Arduino winch at ultra-slow speeds (0.3 RPM) without crashing. |
+| **[GitGalaxy Engine](https://github.com/squid-protocol/gitgalaxy)** | **[Project S34: Evolutionary Sorter](https://github.com/squid-protocol/sorting_evolution_algorithm)** | **[No-Number Clock](https://github.com/squid-protocol/No_number_clock)** |
+| :---: | :---: | :---: |
+| [![GitGalaxy Rails Demo](https://img.youtube.com/vi/XWWSd8LmoCM/maxresdefault.jpg)](https://youtu.be/XWWSd8LmoCM) | [![Project S34 Demo](https://img.youtube.com/vi/e0uPb7Tg9FI/maxresdefault.jpg)](https://youtu.be/e0uPb7Tg9FI) | [![No Number Clock Demo](https://img.youtube.com/vi/xWCVrFAyhkw/maxresdefault.jpg)](https://youtu.be/xWCVrFAyhkw) |
+| **Codebase Cartography at Scale**<br>Visualizing the 3M+ line Ruby on Rails architecture. GitGalaxy is an AST-free, LLM-free heuristic knowledge graph engine for deep repository intelligence. | **AI-Driven Mechanical Design**<br>A high-performance Genetic Algorithm (GA) coupled with a headless Matter.js physics engine to automate the design of physical sorting machinery. | **Fractional Stepper Motor Control**<br>A visual, C++ assistive-tech timer that uses a custom sub-integer algorithm to drive an Arduino winch at ultra-slow speeds (0.3 RPM) without crashing. |
 
 ---
 
@@ -25,7 +25,6 @@ Here is a look at what I build. Click the images below to watch the video demons
 Beyond architecture mapping, I build industrial and educational automation systems:
 
 * 🐢 **[meow-turtle](https://github.com/squid-protocol/meow-turtle):** An industrial-grade, distributed SMP sorting framework for small parts. Features a bare-metal MicroPython architecture running on RP2350s (Raspberry Pi Pico 2).
-* 🧬 **[sorting_evolution_algorithm](https://github.com/squid-protocol/sorting_evolution_algorithm):** A high-performance Genetic Algorithm (GA) coupled with a Matter.js physics engine to automate the design of physical sorting machinery.
 * 🧮 **[math_facts](https://github.com/squid-protocol/math_facts):** A gamified, zero-wait educational tracker built with Python, Flask, and Plotly.js to turn rapid-fire math practice into interactive speed dashboards.
 
 ---
