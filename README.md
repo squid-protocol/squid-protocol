@@ -1,42 +1,50 @@
-# Joe Esquibel 🦑
-**Educator, Scientist, and Deep-Tech Systems Builder**
+# Hi, I'm Joe Esquibel, Ph.D. 👋
+### Deep-Tech Systems Architect | Edge Computing & Heuristic Analysis 
 
-I am a tenured Biology Professor (Ph.D.) pivoting a decade of scientific research and another decade of teaching into open-source hardware and software engineering. 
+For the past 10 years, I have served as a tenured Biology Professor and researcher with a Ph.D. in Pharmacology. Today, I am transitioning my career from academia into deep-tech systems architecture.
 
-My foundation is in the physical sciences—specifically, molecular and cellular pharmacology with **assay development**, **state-of-the-art microscopy**, and building **quantitative data pipelines for super-resolution microscopy**. Today, I apply that same rigorous, methodical approach to engineering. Whether I am building distributed bare-metal robotics or mapping enterprise software monoliths, I build systems that connect atoms to algorithms.
+It turns out that the strict, methodical isolation of variables required in wet-lab assay development translates flawlessly into software engineering. I combine a decade of rigorous scientific methodology with deep-stack engineering to design and deploy "unbrickable" architectures for environments with lethal constraints—from high-noise industrial manufacturing floors to legacy enterprise codebases.
 
-I approach engineering through a systems-level lens, prioritizing transparent information flow and deterministic architecture. My workflow heavily leverages AI as a rapid-prototyping sounding board, allowing me to iterate on complex ideas at high velocity. I am comfortable building across the entire spectrum—from bare-metal hardware and backend algorithms to interactive front-ends. I am technology-agnostic; rather than tying myself to a specific framework, I let the problem dictate the stack, building whatever is necessary to drive a system from concept to completion.
-
----
-
-## 🔭 Featured Systems & Architecture
-
-Here is a look at what I build. Click the images below to watch the video demonstrations.
-
-| **[blAST Static Analysis Engine](https://github.com/squid-protocol/gitgalaxy)** | **[Small Parts Evolutionary Sorter](https://github.com/squid-protocol/sorting_evolution_algorithm)** | **[No-Number Clock](https://github.com/squid-protocol/No_number_clock)** |
-| :---: | :---: | :---: |
-| [![GitGalaxy Rails Demo](https://img.youtube.com/vi/XWWSd8LmoCM/maxresdefault.jpg)](https://youtu.be/XWWSd8LmoCM) | [![Project S34 Demo](https://img.youtube.com/vi/g3T9_7ois08/maxresdefault.jpg)](https://www.youtube.com/watch?v=g3T9_7ois08&t=5s) | [![No Number Clock Demo](https://img.youtube.com/vi/xWCVrFAyhkw/maxresdefault.jpg)](https://youtu.be/xWCVrFAyhkw) |
-| **Codebase Cartography at Scale**<br>Visualizing the 3M+ line Ruby on Rails architecture. GitGalaxy is an AST-free, LLM-free heuristic knowledge graph engine for deep repository intelligence. | **AI-Driven Mechanical Design**<br>A high-performance Genetic Algorithm (GA) coupled with a headless Matter.js physics engine to automate the design of physical sorting machinery. | **Fractional Stepper Motor Control**<br>A visual, C++ assistive-tech timer that uses a custom sub-integer algorithm to drive an Arduino winch at ultra-slow speeds (0.3 RPM) without crashing. |
-
----
-| **Codebase Cartography at Scale**<br>Visualizing the 3M+ line Ruby on Rails architecture. GitGalaxy is an AST-free, LLM-free heuristic knowledge graph engine for deep repository intelligence. | **AI-Driven Mechanical Design**<br>A high-performance Genetic Algorithm (GA) coupled with a headless Matter.js physics engine to automate the design of physical sorting machinery. | **Fractional Stepper Motor Control**<br>A visual, C++ assistive-tech timer that uses a custom sub-integer algorithm to drive an Arduino winch at ultra-slow speeds (0.3 RPM) without crashing. |
+I don't just consume APIs; I author the foundational communication protocols, heuristic engines, and state machines that allow hardware and software to interface securely at scale.
 
 ---
 
-## ⚙️ Hardware, Physics & Automation
+## 🏗️ The Infrastructure Trinity
 
-Beyond architecture mapping, I build industrial and educational automation systems:
+My core architectural work spans three distinct domains of systems engineering: Physical Control, Abstract Mapping, and Simulated Optimization.
 
-* 🐢 **[meow-turtle](https://github.com/squid-protocol/meow-turtle):** An industrial-grade, distributed SMP sorting framework for small parts. Features a bare-metal MicroPython architecture running on RP2350s (Raspberry Pi Pico 2).
-* 🧮 **[math_facts](https://github.com/squid-protocol/math_facts):** A gamified, zero-wait educational tracker built with Python, Flask, and Plotly.js to turn rapid-fire math practice into interactive speed dashboards.
+### 1. SCADA & Edge Computing (The Physical)
+**[`meow-turtle`]([https://github.com/squid-protocol/meow-turtle](https://github.com/squid-protocol/meow-turtle))** | *Distributed SMP Sorting Architecture*
+An industrial-grade, distributed SCADA framework designed for hard real-time physical sorting. 
+* **The Architecture:** Utilizes a dual-core Symmetric Multiprocessing (SMP) architecture on bare-metal RP2350 microcontrollers.
+* **The Protocol:** Driven by **MTIP**, a custom fault-tolerant, Layer-7 asynchronous serial protocol I authored for high-noise RS485 environments. Features deterministic packet framing (`<HEX:CRC>`), CRC-16-CCITT cryptographic verification, and priority transmit queues for microsecond E-Stop interrupts.
+* **The Reliability:** Features "Death Gasp" brownout telemetry, E-Stop hardware interlocks, and an atomic Over-The-Air (OTA) firmware staging system with a zero-dependency `Ghost Mode` rescue kernel to prevent remote bricking.
+
+### 2. Static Analysis & Big Data (The Analytical)
+**[`gitgalaxy`]([https://github.com/squid-protocol/gitgalaxy](https://github.com/squid-protocol/gitgalaxy))** | *AST-Free Heuristic Knowledge Graph*
+A high-velocity static analysis engine built for extreme-scale enterprise intelligence and technical debt mapping.
+* **The Architecture:** Bypasses traditional Abstract Syntax Trees (ASTs) and LLMs entirely, utilizing a custom heuristic scanning engine to parse and map monolithic architectures (including legacy COBOL) across 50+ languages.
+* **The Visualization:** Renders massive, unstructured codebase relationships into actionable 3D risk maps using custom WebGL/WebGPU pipelines. 
+* **The Impact:** Deployed as an incident response and M&A technical due diligence tool to generate zero-trust SBOMs and expose hidden dependency chains.
+
+### 3. Machine Learning & Simulation (The Simulated)
+**[`sorting_evolution_algorithm`]([https://github.com/squid-protocol/sorting_evolution_algorithm](https://github.com/squid-protocol/sorting_evolution_algorithm))** | *Predictive Physics Simulation*
+A high-compute testing environment that evolves optimal mechanical solutions before physical deployment.
+* **The Architecture:** Couples a custom Genetic Algorithm (GA) with a headless Matter.js physics engine.
+* **The Compute:** Offloads intense evolutionary calculations into multi-threaded Web Workers, allowing for rapid generation and mutation of mechanical sorting tolerances based on physical fitness scores.
 
 ---
 
-## 📬 Connect & Learn More
+## ⚙️ Hardware UX & Educational Tools
+* **[`No_number_clock`]([https://github.com/squid-protocol/No_number_clock](https://github.com/squid-protocol/No_number_clock)):** A mechanical assistive technology device translating abstract time into physical distance using C++ and micro-stepping motor control. 
+* **[`math_facts`]([https://github.com/squid-protocol/math_facts](https://github.com/squid-protocol/math_facts)):** A zero-wait, gamified analytics dashboard built with Python, Flask, and Plotly.js to track real-time learning metrics.
 
-I am currently seeking roles in prototyping, systems architecture, and deep-tech engineering remotely or in the Grand Rapids, MI area. 
+---
 
-* 🌐 **Website & 3D Visualizer:** [GitGalaxy.io](https://gitgalaxy.io/)
-* 💼 **LinkedIn:** [joseph-esquibel-87466347](https://www.linkedin.com/in/joseph-esquibel-87466347)
-* 📦 **PyPI:** [gitgalaxy package](https://pypi.org/project/gitgalaxy/)
-* 🔬 **Scientific Research:** [PubMed Publications](https://pubmed.ncbi.nlm.nih.gov/?term=esquibel+joseph)
+## 🚀 Currently Engineering
+* **Micro-MTIP Framework:** Extracting the Layer-7 asynchronous SCADA protocol utilized in `meow-turtle` into a standalone, open-source routing framework for edge-compute developers. 
+
+---
+
+## 📫 Let's Connect
+I am currently pivoting my systems engineering expertise into the industrial automation, DevSecOps, and deep-tech sectors. If your engineering team is tackling complex edge-compute integrations, legacy architecture mapping, or requires fault-tolerant systems design, let's talk. 
