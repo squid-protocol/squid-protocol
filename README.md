@@ -16,7 +16,7 @@ My core architectural work spans three distinct domains of systems engineering: 
 ### 1. SCADA & Edge Computing (The Physical)
 **[`meow-turtle`]([https://github.com/squid-protocol/meow-turtle](https://github.com/squid-protocol/meow-turtle))** | *Distributed SMP Sorting Architecture*
 An industrial-grade, distributed SCADA framework designed for hard real-time physical sorting. 
-* 🎥 **[Watch the Hardware Demo on YouTube](YOUR-YOUTUBE-LINK-HERE)**
+* 🎥 **[Watch the Hardware Demo on YouTube](https://www.youtube.com/shorts/_swgFbqY9CQ)**
 * **The Architecture:** Utilizes a dual-core Symmetric Multiprocessing (SMP) architecture on bare-metal RP2350 microcontrollers.
 * **The Protocol:** Driven by **MTIP**, a custom fault-tolerant, Layer-7 asynchronous serial protocol I authored for high-noise RS485 environments. Features deterministic packet framing (`<HEX:CRC>`), CRC-16-CCITT cryptographic verification, and priority transmit queues for microsecond E-Stop interrupts.
 * **The Reliability:** Features "Death Gasp" brownout telemetry, E-Stop hardware interlocks, and an atomic Over-The-Air (OTA) firmware staging system with a zero-dependency `Ghost Mode` rescue kernel to prevent remote bricking.
@@ -24,7 +24,7 @@ An industrial-grade, distributed SCADA framework designed for hard real-time phy
 ### 2. Static Analysis & Big Data (The Analytical)
 **[`gitgalaxy`]([https://github.com/squid-protocol/gitgalaxy](https://github.com/squid-protocol/gitgalaxy))** | *AST-Free Heuristic Knowledge Graph*
 A high-velocity static analysis engine built for extreme-scale enterprise intelligence and technical debt mapping.
-* 🎥 **[Watch the WebGPU Visualization on YouTube](YOUR-YOUTUBE-LINK-HERE)**
+* 🎥 **[Watch the WebGPU Visualization on YouTube](https://www.youtube.com/watch?v=XWWSd8LmoCM)**
 * **The Architecture:** Bypasses traditional Abstract Syntax Trees (ASTs) and LLMs entirely, utilizing a custom heuristic scanning engine to parse and map monolithic architectures (including legacy COBOL) across 50+ languages.
 * **The Visualization:** Renders massive, unstructured codebase relationships into actionable 3D risk maps using custom WebGL/WebGPU pipelines. 
 * **The Impact:** Deployed as an incident response and M&A technical due diligence tool to generate zero-trust SBOMs and expose hidden dependency chains.
@@ -32,7 +32,7 @@ A high-velocity static analysis engine built for extreme-scale enterprise intell
 ### 3. Machine Learning & Simulation (The Simulated)
 **[`sorting_evolution_algorithm`]([https://github.com/squid-protocol/sorting_evolution_algorithm](https://github.com/squid-protocol/sorting_evolution_algorithm))** | *Predictive Physics Simulation*
 A high-compute testing environment that evolves optimal mechanical solutions before physical deployment.
-* 🎥 **[Watch the Evolutionary Algorithm Demo on YouTube](YOUR-YOUTUBE-LINK-HERE)**
+* 🎥 **[Watch the Evolutionary Algorithm Demo on YouTube](https://www.youtube.com/watch?v=e0uPb7Tg9FI)**
 * **The Architecture:** Couples a custom Genetic Algorithm (GA) with a headless Matter.js physics engine.
 * **The Compute:** Offloads intense evolutionary calculations into multi-threaded Web Workers, allowing for rapid generation and mutation of mechanical sorting tolerances based on physical fitness scores.
 
