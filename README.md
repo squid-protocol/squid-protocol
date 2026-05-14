@@ -39,7 +39,7 @@ A high-compute testing environment that evolves optimal mechanical solutions bef
 ---
 
 ## ⚙️ Hardware UX & Educational Tools
-* **[`No_number_clock`]([https://github.com/squid-protocol/No_number_clock](https://github.com/squid-protocol/No_number_clock)):** A mechanical assistive technology device translating abstract time into physical distance using C++ and micro-stepping motor control. 🎥 **[Watch the Build on YouTube](YOUR-YOUTUBE-LINK-HERE)**
+* **[`No_number_clock`]([https://github.com/squid-protocol/No_number_clock](https://github.com/squid-protocol/No_number_clock)):** A mechanical assistive technology device translating abstract time into physical distance using C++ and micro-stepping motor control. 🎥 **[Watch the Build on YouTube](https://www.youtube.com/@squid-protocol/shorts)**
 * **[`math_facts`]([https://github.com/squid-protocol/math_facts](https://github.com/squid-protocol/math_facts)):** A zero-wait, gamified analytics dashboard built with Python, Flask, and Plotly.js to track real-time learning metrics.
 
 ---
