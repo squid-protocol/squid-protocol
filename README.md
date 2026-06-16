@@ -1,53 +1,72 @@
 # Hi, I'm Joe Esquibel, Ph.D. 👋
-### Deep-Tech Systems Architect | Edge Computing & Heuristic Analysis 
+### Deep-Tech Systems Architect | Edge Computing & Heuristic Analyses 
 
-For the past 10 years, I have served as a tenured Biology Professor and researcher with a Ph.D. in Pharmacology. Today, I am transitioning my career from academia into deep-tech systems architecture.
+I've taught the last 10 years as a tenured Biology Professor and have 10 years in pharmacology research with increasing amounts of coding over the last 20 years. I'm ready to switch roles that focus on custom R&D for hard problems. **Deeply curious, love to learn.** I'm eager to meld my experiences in research, pharmacology, custom algorithm design, system architecture and data analysis pipelines to **solve some HARD problems.** 
 
-It turns out that the strict, methodical isolation of variables required in wet-lab assay development translates flawlessly into software engineering. I combine a decade of rigorous scientific methodology with deep-stack engineering to design and deploy "unbrickable" architectures for environments with lethal constraints—from high-noise industrial manufacturing floors to legacy enterprise codebases.
+**This is me:** 
 
-I don't just consume APIs; I author the foundational communication protocols, heuristic engines, and state machines that allow hardware and software to interface securely at scale.
+I use LLM pair-programming to accelerate design, pressure-test architectural designs, and achieve extreme development velocity
 
----
+### [GitGalaxy - Whole Repository Analysis System](https://github.com/squid-protocol/gitgalaxy)
+<a href="https://www.youtube.com/watch?v=XWWSd8LmoCM"><img src="https://img.youtube.com/vi/XWWSd8LmoCM/0.jpg" alt="GitGalaxy Demo" width="300"></a>
 
-## 🏗️ The Infrastructure Trinity
+**Website:** [gitgalaxy.io](https://gitgalaxy.io) | **PyPI:** [pypi.org/project/gitgalaxy/](https://pypi.org/project/gitgalaxy/)
 
-My core architectural work spans three distinct domains of systems engineering: Physical Control, Abstract Mapping, and Simulated Optimization.
+**Description:** An AST-free, LLM-free heuristic knowledge graph engine for deep repository intelligence. A custom engine forked from the BLAST (DNA scanning) algorithm. Map, understand, secure, and modernize enterprise codebases across 50+ languages at extreme velocity.
 
-### 1. SCADA & Edge Computing (The Physical)
-**[`meow-turtle`]([https://github.com/squid-protocol/meow-turtle](https://github.com/squid-protocol/meow-turtle))** | *Distributed SMP Sorting Architecture*
-An industrial-grade, distributed SCADA framework designed for hard real-time physical sorting. 
-* 🎥 **[Watch the Hardware Demo on YouTube](https://www.youtube.com/shorts/_swgFbqY9CQ)**
-* **The Architecture:** Utilizes a dual-core Symmetric Multiprocessing (SMP) architecture on bare-metal RP2350 microcontrollers.
-* **The Protocol:** Driven by **MTIP**, a custom fault-tolerant, Layer-7 asynchronous serial protocol I authored for high-noise RS485 environments. Features deterministic packet framing (`<HEX:CRC>`), CRC-16-CCITT cryptographic verification, and priority transmit queues for microsecond E-Stop interrupts.
-* **The Reliability:** Features "Death Gasp" brownout telemetry, E-Stop hardware interlocks, and an atomic Over-The-Air (OTA) firmware staging system with a zero-dependency `Ghost Mode` rescue kernel to prevent remote bricking.
+**Key Implementations:**
+* **[Full Architectural Teardowns](https://squid-protocol.github.io/gitgalaxy/museum-of-code/):** The engine parses coding intent across 50+ languages. Translates structural regex hits into calculated risk exposures to map information flow, system design, network analyses and architectural drift. *(Examples: Apollo 11 source code, IBM CICS benchmarks).*
+* **[Zero-Trust Security & Threat Inference](https://github.com/squid-protocol/gitgalaxy/tree/main/gitgalaxy/security):** The engine focus is tweaked to now isolate logic bombs, memory corruption, and hidden vulnerabilities. It utilizes C-backed Shannon Entropy math to catch obfuscated malware and an embedded XGBoost model to classify specific payloads like Trojans and Droppers.
+* **[Supply Chain Defense](https://github.com/squid-protocol/gitgalaxy/tree/main/gitgalaxy/tools/supply_chain_security):** High-velocity perimeter scanner that monitors every file before download. Actively searches for hidden payloads, magic byte mismatches, and extreme entropy in compiled binaries.
+* **Legacy Modernization:** Automated, deterministic pipelines that map, slice, and refactor enterprise architectures, including [COBOL to Java](https://github.com/squid-protocol/gitgalaxy/tree/main/gitgalaxy/tools/cobol_to_java) and [COBOL to COBOL](https://github.com/squid-protocol/gitgalaxy/tree/main/gitgalaxy/tools/cobol_to_cobol).
 
-### 2. Static Analysis & Big Data (The Analytical)
-**[`gitgalaxy`]([https://github.com/squid-protocol/gitgalaxy](https://github.com/squid-protocol/gitgalaxy))** | *AST-Free Heuristic Knowledge Graph*
-A high-velocity static analysis engine built for extreme-scale enterprise intelligence and technical debt mapping.
-* 🎥 **[Watch the WebGPU Visualization on YouTube](https://www.youtube.com/watch?v=XWWSd8LmoCM)**
-* **The Architecture:** Bypasses traditional Abstract Syntax Trees (ASTs) and LLMs entirely, utilizing a custom heuristic scanning engine to parse and map monolithic architectures (including legacy COBOL) across 50+ languages.
-* **The Visualization:** Renders massive, unstructured codebase relationships into actionable 3D risk maps using custom WebGL/WebGPU pipelines. 
-* **The Impact:** Deployed as an incident response and M&A technical due diligence tool to generate zero-trust SBOMs and expose hidden dependency chains.
-
-### 3. Machine Learning & Simulation (The Simulated)
-**[`sorting_evolution_algorithm`]([https://github.com/squid-protocol/sorting_evolution_algorithm](https://github.com/squid-protocol/sorting_evolution_algorithm))** | *Predictive Physics Simulation*
-A high-compute testing environment that evolves optimal mechanical solutions before physical deployment.
-* 🎥 **[Watch the Evolutionary Algorithm Demo on YouTube](https://www.youtube.com/watch?v=e0uPb7Tg9FI)**
-* **The Architecture:** Couples a custom Genetic Algorithm (GA) with a headless Matter.js physics engine.
-* **The Compute:** Offloads intense evolutionary calculations into multi-threaded Web Workers, allowing for rapid generation and mutation of mechanical sorting tolerances based on physical fitness scores.
+**Status:** Functional & Deployed with website, [PyPI (14k+ downloads)](https://pulse.aegis-stack.io/search/gitgalaxy), and git community usage.
 
 ---
 
-## ⚙️ Hardware UX & Educational Tools
-* **[`No_number_clock`]([https://github.com/squid-protocol/No_number_clock](https://github.com/squid-protocol/No_number_clock)):** A mechanical assistive technology device translating abstract time into physical distance using C++ and micro-stepping motor control. 🎥 **[Watch the Build on YouTube](https://www.youtube.com/@squid-protocol/shorts)**
-* **[`math_facts`]([https://github.com/squid-protocol/math_facts](https://github.com/squid-protocol/math_facts)):** A zero-wait, gamified analytics dashboard built with Python, Flask, and Plotly.js to track real-time learning metrics.
+### [Helping Farmers Farm - app for farmers & volunteers](https://github.com/squid-protocol/help_farmers_farm)
+<a href="https://www.youtube.com/watch?v=VSIW91JPdyw"><img src="https://img.youtube.com/vi/VSIW91JPdyw/0.jpg" alt="Helping Farmers Farm Demo" width="300"></a>
+
+**Website:** [helpingfarmersfarm.com](https://www.helpingfarmersfarm.com)
+
+**Description:** A platform built to connect eager community members with local agriculture for work-share CSA programs. It gives farm managers the tools to seamlessly oversee volunteer rosters, track seasonal work commitments, and manage digital liability waivers without the hassle of spreadsheets.
+
+**Status:** Functional & Deployed - 1 farm using system for 3 years.
 
 ---
 
-## 🚀 Currently Engineering
-* **Micro-MTIP Framework:** Extracting the Layer-7 asynchronous SCADA protocol utilized in `meow-turtle` into a standalone, open-source routing framework for edge-compute developers. 
+### [Meow Turtle - Custom Distributed Robots Control System](https://github.com/squid-protocol/meow-turtle)
+<a href="[Insert YouTube Link Here]"><img src="[Insert Image Link Here]" alt="SCADA Demo" width="300"></a>
+
+**Website:** [[Insert GitHub or Website Link Here]]([Insert Link])
+
+**Description:** A lightweight, distributed SCADA middleware for physical automation over RS-485. Features an asynchronous Python Digital Twin host (RP5) controlling deterministic, bare-metal MicroPython nodes (RP2350). Currently implemented as a small parts sorting system.
+
+**Status:** Sorts small parts successfully, middleware stable for usage
+
+---
+
+### [Fast Math Facts - Gamified Education Site](https://github.com/squid-protocol/math_facts)
+<a href="https://youtube.com/shorts/G3fbgRJeNOc"><img src="https://img.youtube.com/vi/G3fbgRJeNOc/0.jpg" alt="FastMathFacts Demo" width="300"></a>
+
+**Website:** [fastmathfacts.io](https://fastmathfacts.io/)
+
+**Description:** A gamified math practice engine designed to reward both mastery and gritty determination. This uses a dual scoring system that mathematically separates mastered repetition from hard work. It features dynamic game modes to target weak spots, millisecond timing with instant feedback and different analytic boards to prove the student is growing with practice.
+
+**Status:** Functional & Deployed with website. People practice and submit to my absurd [international leaderboard](https://fastmathfacts.io/analytics/). 
+
+---
+
+### [Evolutionary Algorithm to Design Part Sorting Machinery](https://github.com/squid-protocol/sorting_evolution_algorithm)
+<a href="https://www.youtube.com/watch?v=e0uPb7Tg9FI"><img src="https://img.youtube.com/vi/e0uPb7Tg9FI/0.jpg" alt="Sorting Evolution Algorithm Demo" width="300"></a>
+
+**Website:** [github.com/squid-protocol/sorting_evolution_algorithm](https://github.com/squid-protocol/sorting_evolution_algorithm)
+
+**Description:** A custom-built Genetic Algorithm (GA) and Machine Learning pipeline designed to procedurally generate, simulate, and optimize physical vibrating sorting mechanisms for small parts. Because standard optimization algorithms fail when applied to chaotic 2D rigid-body physics, this engine utilizes a three-pillar architecture: a multi-threaded Web Worker pool running headless `matter.js` physics simulations, a Python/Dash dimensionality reduction pipeline (`scikit-learn` PCA) that maps AI strategies into a 3D fitness landscape, and a rigorous Monte Carlo stress-tester to eliminate statistical flukes. 
+
+**Status:** Functional. The project successfully evolved optimum design specifications, which are currently implemented in the physical SCADA (meow turtle) hardware project above.
 
 ---
 
 ## 📫 Let's Connect
-I am currently pivoting my systems engineering expertise into the industrial automation, DevSecOps, and deep-tech sectors. If your engineering team is tackling complex edge-compute integrations, legacy architecture mapping, or requires fault-tolerant systems design, let's talk!
+I love building and enjoying working with others. If you've got a project, I'm happy to hear about it. 
