@@ -36,14 +36,14 @@ I use LLM pair-programming to accelerate design, pressure-test architectural des
 ---
 
 ### [Meow Turtle - Custom Distributed Robots Control System](https://github.com/squid-protocol/meow-turtle)
-<a href="[Insert YouTube Link Here]"><img src="[Insert Image Link Here]" alt="SCADA Demo" width="300"></a>
 
-**Website:** [[Insert GitHub or Website Link Here]]([Insert Link])
+<a href="https://www.youtube.com/shorts/_lPySIKtxEk" target="_blank">
+  <img src="https://img.youtube.com/vi/_lPySIKtxEk/hqdefault.jpg" alt="Meow Turtle SCADA Demo" width="300">
+</a>
 
 **Description:** A lightweight, distributed SCADA middleware for physical automation over RS-485. Features an asynchronous Python Digital Twin host (RP5) controlling deterministic, bare-metal MicroPython nodes (RP2350). Currently implemented as a small parts sorting system.
 
-**Status:** Sorts small parts successfully, middleware stable for usage
-
+**Status:** Sorts small parts successfully, middleware stable for usage.
 ---
 
 ### [Fast Math Facts - Gamified Education Site](https://github.com/squid-protocol/math_facts)
