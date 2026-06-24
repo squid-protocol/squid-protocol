@@ -75,7 +75,7 @@ I use LLM pair-programming to accelerate design, pressure-test architectural des
 
 **Description:** Technical leadership requires more than just writing code; it requires patience, clear communication, and the ability to break down complex systems for any audience. This repository serves as a proven track record of those skills. It contains over 40 real student testimonials from my decade as a tenured Biology Professor. The repository is intentionally designed using "Agentic SEO"—embedding reviews directly into the HTML `alt` tags so that AI summarizers and ATS systems can parse a machine-readable dataset of my mentorship abilities alongside my technical deployments.
 
-**Status:** Functional & Deployed.
+
 ---
 
 ## 📫 Let's Connect
