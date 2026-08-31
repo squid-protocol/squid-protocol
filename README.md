@@ -22,6 +22,8 @@ I use LLM pair-programming to accelerate design, pressure-test architectural des
 
 **Status:** Functional & Deployed with website, [PyPI (14k+ downloads)](https://pulse.aegis-stack.io/search/gitgalaxy), and git community usage.
 
+**The evidence web** — every claim above has a public proof repo behind it: [unedited scans of real repos + speed telemetry](https://github.com/squid-protocol/gitgalaxy-raw-output) · [10 COBOL repos auto-translated to compiling Spring Boot](https://github.com/squid-protocol/cobol_to_java_examples) · [50+ language adversarial benchmark corpus](https://github.com/squid-protocol/language-crucible) · [46-language measurement-consistency control corpus](https://github.com/squid-protocol/keyword-rosetta) · [population-level statistics](https://github.com/squid-protocol/gitgalaxy-population-analyses) · [distribution telemetry](https://github.com/squid-protocol/squid-telemetry) · [full docs & methodology site](https://squid-protocol.github.io/gitgalaxy/)
+
 ---
 
 ### [Helping Farmers Farm - app for farmers & volunteers](https://github.com/squid-protocol/help_farmers_farm)
