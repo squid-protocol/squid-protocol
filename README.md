@@ -116,10 +116,30 @@ one sentence.
 
 ## Other things I've built
 
-- **[Helping Farmers Farm](https://github.com/squid-protocol/help_farmers_farm)**: volunteer scheduling, farm management and digital waivers for work-share CSA farms. Used by a farm for 3+ years. [Website](https://www.helpingfarmersfarm.com) · [demo](https://www.youtube.com/watch?v=VSIW91JPdyw)
-- **[Meow Turtle](https://github.com/squid-protocol/meow-turtle)**: distributed control over RS-485, with an async Python digital-twin host driving bare-metal MicroPython nodes in a small-parts sorter. [Demo](https://www.youtube.com/shorts/_lPySIKtxEk)
-- **[Sorting evolution](https://github.com/squid-protocol/sorting_evolution_algorithm)**: genetic algorithms over headless physics simulation to design the vibrating sorters Meow Turtle now runs. [Demo](https://www.youtube.com/watch?v=e0uPb7Tg9FI)
-- **[Fast Math Facts](https://fastmathfacts.io/)**: math practice that separates mastery from effort, with millisecond timing and an international leaderboard. [Demo](https://youtube.com/shorts/G3fbgRJeNOc)
+<sub>Click a picture for its demo video.</sub>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://www.youtube.com/watch?v=VSIW91JPdyw"><img src="https://img.youtube.com/vi/VSIW91JPdyw/0.jpg" width="220" alt="Helping Farmers Farm demo video"></a><br />
+<strong><a href="https://github.com/squid-protocol/help_farmers_farm">Helping Farmers Farm</a></strong>: volunteer scheduling, farm management and digital waivers for work-share CSA farms. <strong>Used by a farm for 3+ years.</strong> <a href="https://www.helpingfarmersfarm.com">Website</a>
+</td>
+<td width="50%" valign="top">
+<a href="https://www.youtube.com/shorts/_lPySIKtxEk"><img src="https://img.youtube.com/vi/_lPySIKtxEk/hqdefault.jpg" width="220" alt="Meow Turtle sorting machine demo video"></a><br />
+<strong><a href="https://github.com/squid-protocol/meow-turtle">Meow Turtle</a></strong>: distributed control over RS-485, with an async Python digital-twin host driving bare-metal MicroPython nodes in a small-parts sorter. 
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://www.youtube.com/watch?v=e0uPb7Tg9FI"><img src="https://img.youtube.com/vi/e0uPb7Tg9FI/0.jpg" width="220" alt="Sorting evolution algorithm demo video"></a><br />
+<strong><a href="https://github.com/squid-protocol/sorting_evolution_algorithm">Sorting evolution</a></strong>: genetic algorithms over headless physics simulation to design the vibrating sorters Meow Turtle now runs. 
+</td>
+<td width="50%" valign="top">
+<a href="https://youtube.com/shorts/G3fbgRJeNOc"><img src="https://img.youtube.com/vi/G3fbgRJeNOc/0.jpg" width="220" alt="Fast Math Facts demo video"></a><br />
+<strong><a href="https://fastmathfacts.io/">Fast Math Facts</a></strong>: math practice that separates mastery from effort, with millisecond timing and an international leaderboard. <a href="https://fastmathfacts.io/">Website</a>
+</td>
+</tr>
+</table>
 
 ## What I'm looking for
 
