@@ -2,8 +2,8 @@
 
 **Independent R&D engineer: program analysis, legacy modernization, and computational research.**
 
-I love to experiment and am very curious. I'm a tenured biology professor and pharmacology researcher who taught myself software engineering over ~20 years of
-increasingly computational work. Now I build tools for hard technical problems, where the standard tools aren't quite
+I'm a tenured biology professor and pharmacology researcher, an experimenter by nature, who taught myself software
+engineering over ~20 years of increasingly computational work. Now I build tools for hard technical problems, where the standard tools aren't quite
 enough and the interesting part is finding the right abstraction.
 
 📧 **[joe@gitgalaxy.io](mailto:joe@gitgalaxy.io)** · open to R&D contracts, modernization work, and commercial licensing of GitGalaxy
@@ -45,7 +45,8 @@ We also pre-registered a test of whether code structure predicts defects. [It do
 
 How much of the original game's design survives when DOOM is ported to another language? GitGalaxy mapped
 linuxdoom's 16 parts (777 functions, 1,605 calls), then measured 16 programs against a shuffled baseline. The Scheme
-and Go translations kept as much of the wiring as the closest C copy. Java, Kotlin and C# kept none. An example of using the gitgalaxy engine for code relationship mapping [Read the study](https://github.com/squid-protocol/gitgalaxy/blob/main/docs/wiki/museum-of-code/teardown-of-doom.md).
+and Go translations kept as much of the wiring as the closest C copy. Java, Kotlin and C# kept none. It's one example
+of GitGalaxy mapping how code is wired together. [Read the study](https://github.com/squid-protocol/gitgalaxy/blob/main/docs/wiki/museum-of-code/teardown-of-doom.md).
 
 ## Current R&D: CICS and COBOL to Java, with the evidence
 
@@ -68,12 +69,15 @@ them, and gives each one its own isolated copy of the repo. Every change is scre
 test suite after, and only green changes are merged. When only a human can decide something, the question goes to my
 phone and the fleet keeps working on everything else.
 
-It reports its own costs as well as its output. [The live dashboard](https://github.com/squid-protocol/squid-bot#-live-fleet-dashboard)
-also tracks CI load, how often `main` broke, and what is limiting the fleet each hour.
+[The live dashboard](https://github.com/squid-protocol/squid-bot#-live-fleet-dashboard) shows what it costs and what it
+delivers, along with CI load, how often `main` broke, and what is limiting the fleet each hour.
 
 ## How I work
 
-I turn hard questions into small, quick discrete experiments. In a world where code is cheap, I feel that full evidence chains and deterministic systems for reproductibility are key. LLMs are great tools that need to be constrained (as they are a cog/step in my controlled squid-bot pipeline) whose work needs to be checked. Scientific validation of ideas and paradigms are used to reject or accept directions. 
+I turn hard questions into small, quick, discrete experiments. In a world where code is cheap, I think full evidence
+chains and deterministic, reproducible systems are what matter. LLMs are great tools, but they need constraints: in my
+squid-bot pipeline they're one step, and their work gets checked. Ideas and directions are accepted or rejected by
+scientific validation.
 
 - **[Raw output](https://github.com/squid-protocol/gitgalaxy-raw-output)**: unedited scans of hundreds of real repositories
 - **[Language Crucible](https://github.com/squid-protocol/language-crucible)** and **[Keyword Rosetta](https://github.com/squid-protocol/keyword-rosetta)**: the benchmark and cross-language control corpora behind the numbers above
@@ -100,7 +104,7 @@ idea students usually only hear about.
 <td width="50%" valign="top">
 <a href="https://sixthsense.fastmathfacts.io/"><img src="assets/sixthsense.gif" width="220" alt="Sixth Sense: two stick figures, a watcher and a watched person facing a wall, each holding a phone. When the watcher looks and the watched person holds the button, it shows a match; when only the watcher looks, a miss. Timing bars fill below"></a>
 
-**[Sixth Sense](https://sixthsense.fastmathfacts.io/)**: can you feel someone staring at your back? Two people, two phones: one holds a button while looking, the other while they feel watched. 
+**[Sixth Sense](https://sixthsense.fastmathfacts.io/)**: can you feel someone staring at your back? Two people, two phones: one holds a button while looking, the other while they feel watched. Then it scores you against 999 bots pressing at random times, so students see the difference between an effect and luck.
 </td>
 </tr>
 </table>
