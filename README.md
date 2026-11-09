@@ -25,11 +25,13 @@ That lets me iterate unusually quickly on research-grade engineering problems.
 
 # 🧬 [GitGalaxy — Whole-Repository Structural Intelligence](https://github.com/squid-protocol/gitgalaxy)
 
-<a href="https://www.youtube.com/watch?v=XWWSd8LmoCM"><img src="https://img.youtube.com/vi/XWWSd8LmoCM/0.jpg" alt="GitGalaxy Demo" width="300"></a>
+<a href="https://github.com/squid-protocol/gitgalaxy"><img src="https://raw.githubusercontent.com/squid-protocol/gitgalaxy/main/docs/media/scan-flow-rainbow.gif" width="100%" alt="One real GitGalaxy scan, start to finish: pip install gitgalaxy and galaxyscope in a terminal, the repository's files as tiles coloured by language, the files left out at each gate with their reasons, every language read by one engine, and the seven reports it writes, on a real-time clock"></a>
 
-**[Website](https://gitgalaxy.io) · [PyPI](https://pypi.org/project/gitgalaxy/) · [Documentation](https://squid-protocol.github.io/gitgalaxy/)**
+<sub>One real scan, start to finish: every number is from the scan's own output, and the clock is its real wall time.</sub>
 
-GitGalaxy is an **AST-free, LLM-free structural analysis engine** for understanding large software repositories across 50+ programming languages.
+**[Website](https://gitgalaxy.io) · [PyPI](https://pypi.org/project/gitgalaxy/) · [Documentation](https://squid-protocol.github.io/gitgalaxy/) · [Demo video](https://www.youtube.com/watch?v=XWWSd8LmoCM)**
+
+GitGalaxy is an **AST-free, LLM-free structural analysis engine** for understanding large software repositories across 59 programming languages, read down to the function.
 
 The underlying idea is inspired by biological sequence analysis: rather than requiring a perfect reconstruction of an entire program before asking questions about it, identify useful structural signatures, normalize them into a common representation, and reason over those signals at scale.
 
@@ -234,3 +236,5 @@ but:
 If you're working on a difficult technical problem and think my background might be useful, I'd love to hear about it.
 
 **I'm curious by default. I like hard problems. And I really like finding out whether an idea actually works.**
+
+📧 **[joe@gitgalaxy.io](mailto:joe@gitgalaxy.io)**
