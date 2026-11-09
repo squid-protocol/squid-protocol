@@ -39,6 +39,16 @@ The limits are published next to the results: the numbers come from our own pinn
 [the known blind spots](https://github.com/squid-protocol/gitgalaxy/blob/main/docs/known_blind_spots.md) are listed.
 We also pre-registered a test of whether code structure predicts defects. [It doesn't](https://github.com/squid-protocol/temporal-crucible); change history does.
 
+### Study: DOOM's DNA
+
+<a href="https://github.com/squid-protocol/gitgalaxy/blob/main/docs/wiki/museum-of-code/teardown-of-doom.md"><img src="https://raw.githubusercontent.com/squid-protocol/gitgalaxy/main/docs/media/doom-ports.gif" width="100%" alt="DOOM's DNA: 16 programs on one chart, each showing how much of the original linuxdoom's wiring between its 16 parts it kept, against the same program shuffled as a chance baseline. C copies and the Scheme and Go translations keep the most; Java, Kotlin and C# keep none; rewrites from scratch and unrelated programs score no better than chance"></a>
+
+How much of the original game's design survives when DOOM is ported to another language? GitGalaxy mapped
+linuxdoom's 16 parts (777 functions, 1,605 calls), then measured 16 programs against a shuffled baseline. The Scheme
+and Go translations kept as much of the wiring as the closest C copy. Java, Kotlin and C# kept none, and rewrites
+from scratch score no better than chance. It measures code shape, not gameplay, and functions are assigned to parts by
+name, so it isn't a blind test. [Read the study](https://github.com/squid-protocol/gitgalaxy/blob/main/docs/wiki/museum-of-code/teardown-of-doom.md).
+
 ## Current R&D: CICS and COBOL to Java, with the evidence
 
 Most AI modernization asks a model to translate a whole legacy application and hopes for the best. I'm building the
@@ -52,10 +62,22 @@ a level.
 
 The question behind it: **how much of software transformation can be made deterministic before probabilistic AI is introduced?**
 
+## [squid-bot](https://github.com/squid-protocol/squid-bot): a coding fleet that runs itself
+
+GitGalaxy is largely built by a fleet of AI coding agents, and squid-bot is what keeps that fleet safe to run. I set the
+goals as an ordered list of issues. squid-bot starts agents only when the machine, the CI queue and the budget can take
+them, and gives each one its own isolated copy of the repo. Every change is screened, cheap checks first and the full
+test suite after, and only green changes are merged. When only a human can decide something, the question goes to my
+phone and the fleet keeps working on everything else.
+
+It reports its own costs as well as its output. From Oct 19 to 25 it merged 926 small PRs that closed 193 work items.
+Its first two weeks cost about $2 per merged PR and $11 per resolved issue. [The live dashboard](https://github.com/squid-protocol/squid-bot#-live-fleet-dashboard)
+also tracks CI load, how often `main` broke, and what is limiting the fleet each hour.
+
 ## How I work
 
-I turn hard questions into fast, reproducible experiments. LLMs write most of my first drafts. Whether a change stays is
-decided by tests, reference oracles, benchmark corpora and CI gates, and I make every claim checkable in public:
+I turn hard questions into fast, reproducible experiments. LLMs write most of my first drafts (through squid-bot). Whether a
+change stays is decided by tests, reference oracles, benchmark corpora and CI gates, and I make every claim checkable in public:
 
 - **[Raw output](https://github.com/squid-protocol/gitgalaxy-raw-output)**: unedited scans of hundreds of real repositories
 - **[Language Crucible](https://github.com/squid-protocol/language-crucible)** and **[Keyword Rosetta](https://github.com/squid-protocol/keyword-rosetta)**: the benchmark and cross-language control corpora behind the numbers above
@@ -72,7 +94,7 @@ and to keep asking *"what evidence would convince us?"* ([teaching portfolio](ht
 - **[Helping Farmers Farm](https://github.com/squid-protocol/help_farmers_farm)**: volunteer scheduling, farm management and digital waivers for work-share CSA farms. Used by a farm for 3+ years. [Website](https://www.helpingfarmersfarm.com) · [demo](https://www.youtube.com/watch?v=VSIW91JPdyw)
 - **[Meow Turtle](https://github.com/squid-protocol/meow-turtle)**: distributed control over RS-485, with an async Python digital-twin host driving bare-metal MicroPython nodes in a small-parts sorter. [Demo](https://www.youtube.com/shorts/_lPySIKtxEk)
 - **[Sorting evolution](https://github.com/squid-protocol/sorting_evolution_algorithm)**: genetic algorithms over headless physics simulation to design the vibrating sorters Meow Turtle now runs. [Demo](https://www.youtube.com/watch?v=e0uPb7Tg9FI)
-- **[Fast Math Facts](https://github.com/squid-protocol/math_facts)**: math practice that separates mastery from effort, with millisecond timing and an international leaderboard. [Website](https://fastmathfacts.io/) · [demo](https://youtube.com/shorts/G3fbgRJeNOc)
+- **[Fast Math Facts](https://fastmathfacts.io/)**: math practice that separates mastery from effort, with millisecond timing and an international leaderboard. [Demo](https://youtube.com/shorts/G3fbgRJeNOc)
 
 ## What I'm looking for
 
