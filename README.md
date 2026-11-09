@@ -2,7 +2,7 @@
 
 **Independent R&D engineer: program analysis, legacy modernization, and computational research.**
 
-I'm a tenured biology professor and pharmacology researcher who taught myself software engineering over ~20 years of
+I love to experiment and am very curious. I'm a tenured biology professor and pharmacology researcher who taught myself software engineering over ~20 years of
 increasingly computational work. Now I build tools for hard technical problems, where the standard tools aren't quite
 enough and the interesting part is finding the right abstraction.
 
@@ -45,9 +45,7 @@ We also pre-registered a test of whether code structure predicts defects. [It do
 
 How much of the original game's design survives when DOOM is ported to another language? GitGalaxy mapped
 linuxdoom's 16 parts (777 functions, 1,605 calls), then measured 16 programs against a shuffled baseline. The Scheme
-and Go translations kept as much of the wiring as the closest C copy. Java, Kotlin and C# kept none, and rewrites
-from scratch score no better than chance. It measures code shape, not gameplay, and functions are assigned to parts by
-name, so it isn't a blind test. [Read the study](https://github.com/squid-protocol/gitgalaxy/blob/main/docs/wiki/museum-of-code/teardown-of-doom.md).
+and Go translations kept as much of the wiring as the closest C copy. Java, Kotlin and C# kept none. An example of using the gitgalaxy engine for code relationship mapping [Read the study](https://github.com/squid-protocol/gitgalaxy/blob/main/docs/wiki/museum-of-code/teardown-of-doom.md).
 
 ## Current R&D: CICS and COBOL to Java, with the evidence
 
@@ -70,14 +68,12 @@ them, and gives each one its own isolated copy of the repo. Every change is scre
 test suite after, and only green changes are merged. When only a human can decide something, the question goes to my
 phone and the fleet keeps working on everything else.
 
-It reports its own costs as well as its output. From Oct 19 to 25 it merged 926 small PRs that closed 193 work items.
-Its first two weeks cost about $2 per merged PR and $11 per resolved issue. [The live dashboard](https://github.com/squid-protocol/squid-bot#-live-fleet-dashboard)
+It reports its own costs as well as its output. [The live dashboard](https://github.com/squid-protocol/squid-bot#-live-fleet-dashboard)
 also tracks CI load, how often `main` broke, and what is limiting the fleet each hour.
 
 ## How I work
 
-I turn hard questions into fast, reproducible experiments. LLMs write most of my first drafts (through squid-bot). Whether a
-change stays is decided by tests, reference oracles, benchmark corpora and CI gates, and I make every claim checkable in public:
+I turn hard questions into small, quick discrete experiments. In a world where code is cheap, I feel that full evidence chains and deterministic systems for reproductibility are key. LLMs are great tools that need to be constrained (as they are a cog/step in my controlled squid-bot pipeline) whose work needs to be checked. Scientific validation of ideas and paradigms are used to reject or accept directions. 
 
 - **[Raw output](https://github.com/squid-protocol/gitgalaxy-raw-output)**: unedited scans of hundreds of real repositories
 - **[Language Crucible](https://github.com/squid-protocol/language-crucible)** and **[Keyword Rosetta](https://github.com/squid-protocol/keyword-rosetta)**: the benchmark and cross-language control corpora behind the numbers above
@@ -99,12 +95,12 @@ idea students usually only hear about.
 <td width="50%" valign="top">
 <a href="https://glucose.fastmathfacts.io/"><img src="assets/glucose-game.png" width="300" alt="Cellular Respiration: The Game. Students join their class game with a 4-letter code, then move glowing electron pairs out of glucose into NADH and FADH2 and turn their energy into 38 ATP"></a>
 
-**[Cellular Respiration: The Game](https://glucose.fastmathfacts.io/)**: students join on their phones with a class code and race to pull the energy out of glucose, moving electron pairs into NADH and FADH₂ and turning them into 38 ATP. Built for my intro biology course. You can also play alone against two computer cells.
+**[Cellular Respiration: The Game](https://glucose.fastmathfacts.io/)**: students join on their phones with a class code and race to pull the energy out of glucose, moving electron pairs into NADH and FADH₂ and turning them into ATP.
 </td>
 <td width="50%" valign="top">
 <a href="https://sixthsense.fastmathfacts.io/"><img src="assets/sixthsense.gif" width="220" alt="Sixth Sense: two stick figures, a watcher and a watched person facing a wall, each holding a phone. When the watcher looks and the watched person holds the button, it shows a match; when only the watcher looks, a miss. Timing bars fill below"></a>
 
-**[Sixth Sense](https://sixthsense.fastmathfacts.io/)**: can you feel someone staring at your back? Two people, two phones: one holds a button while looking, the other while they feel watched. The real lesson is telling an effect from luck. Each run is scored against 999 bots that press the same way at random times, a permutation test explained in one sentence.
+**[Sixth Sense](https://sixthsense.fastmathfacts.io/)**: can you feel someone staring at your back? Two people, two phones: one holds a button while looking, the other while they feel watched. 
 </td>
 </tr>
 </table>
