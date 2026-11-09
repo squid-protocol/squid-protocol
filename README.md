@@ -1,236 +1,131 @@
-# Hi, I'm Joe Esquibel, Ph.D. 👋
-### Deep-Tech R&D · Systems Architecture · Computational Research
+# Hi, I'm Joe Esquibel, Ph.D.
 
-I'm a tenured Biology Professor and pharmacology researcher who taught myself software engineering over ~20 years of increasing computational work.
+**Independent R&D engineer: program analysis, legacy modernization, and computational research.**
 
-For the last several years I've been moving increasingly toward **custom R&D for hard technical problems** — building systems where the answer isn't obvious, the standard tools aren't quite enough, and the interesting part is figuring out the right abstraction.
+I'm a tenured biology professor and pharmacology researcher who taught myself software engineering over ~20 years of
+increasingly computational work. Now I build tools for hard technical problems, where the standard tools aren't quite
+enough and the interesting part is finding the right abstraction.
 
-My current focus is **GitGalaxy**, a language-independent software intelligence system that grew out of that approach.
-
-### How I work
-
-I like turning difficult questions into **fast, reproducible experiments**:
-
-`hypothesis → implementation → experiment → evidence → failure → generalization → repeat`
-
-Modern LLMs give me enormous implementation bandwidth. I combine that with automated testing, corpus analysis, deterministic CI, benchmarking, regression controls, and custom analysis pipelines.
-
-The important part isn't simply generating code quickly.
-
-It's building the **feedback system that tells me whether the idea actually works** — and then using failures to discover the next abstraction.
-
-That lets me iterate unusually quickly on research-grade engineering problems.
+📧 **[joe@gitgalaxy.io](mailto:joe@gitgalaxy.io)** · open to R&D contracts, modernization work, and commercial licensing of GitGalaxy
 
 ---
 
-# 🧬 [GitGalaxy — Whole-Repository Structural Intelligence](https://github.com/squid-protocol/gitgalaxy)
+## [GitGalaxy](https://github.com/squid-protocol/gitgalaxy): BLAST for source code
 
-<a href="https://www.youtube.com/watch?v=XWWSd8LmoCM"><img src="https://img.youtube.com/vi/XWWSd8LmoCM/0.jpg" alt="GitGalaxy Demo" width="300"></a>
+<a href="https://github.com/squid-protocol/gitgalaxy"><img src="https://raw.githubusercontent.com/squid-protocol/gitgalaxy/main/docs/media/scan-flow-rainbow.gif" width="100%" alt="One real GitGalaxy scan, start to finish: pip install gitgalaxy and galaxyscope in a terminal, the repository's files as tiles coloured by language, the files left out at each gate with their reasons, every language read by one engine, and the seven reports it writes, on a real-time clock"></a>
 
-**[Website](https://gitgalaxy.io) · [PyPI](https://pypi.org/project/gitgalaxy/) · [Documentation](https://squid-protocol.github.io/gitgalaxy/)**
+<sub>One real scan, start to finish: every number is from the scan's own output, and the clock is its real wall time.</sub>
 
-GitGalaxy is an **AST-free, LLM-free structural analysis engine** for understanding large software repositories across 50+ programming languages.
+**[Website](https://gitgalaxy.io) · [PyPI](https://pypi.org/project/gitgalaxy/) · [Documentation](https://squid-protocol.github.io/gitgalaxy/) · [Demo video](https://www.youtube.com/watch?v=XWWSd8LmoCM)**
 
-The underlying idea is inspired by biological sequence analysis: rather than requiring a perfect reconstruction of an entire program before asking questions about it, identify useful structural signatures, normalize them into a common representation, and reason over those signals at scale.
+As a scientist I used BLAST every day. It finds a gene's relatives across millions of DNA sequences in seconds by
+matching short words, without first working out what the gene does. GitGalaxy applies the same idea to code. It breaks
+every function, in every language, into the same structural words, with no compiler, no build, and no AI model. That
+makes code comparable across languages, repositories and decades, and it works on code that doesn't even build.
 
-The result is a reusable structural substrate for:
+One scan of a repository gives you an architecture brief for engineers and AI agents, a call and import graph, SARIF, a
+CycloneDX SBOM, and a queryable SQLite knowledge graph.
 
-- **Architecture intelligence** — functions, classes, dependencies, information flow, network structure, and architectural drift
-- **Security analysis** — structural risk exposure, suspicious behavior, entropy analysis, payload classification, and supply-chain inspection
-- **Software archaeology** — understanding unfamiliar and historical codebases without requiring a build environment
-- **Legacy modernization** — structural slicing, deterministic scaffolding, COBOL analysis, and COBOL → Java transformation
-- **AI-assisted software engineering** — giving agents a machine-generated structural representation of large codebases before asking them to reason about or transform them
-- **Cross-language analysis** — applying the same analytical vocabulary across very different programming languages
+**Results, each with its source:**
 
-### The part I'm most interested in
+| | |
+|---|---|
+| **59 languages** read down to the function | [the full list](https://github.com/squid-protocol/gitgalaxy#languages) |
+| **100% validated function precision** vs Tree-sitter, across the 31 languages it can compare | [audit of 2026-08-30](https://github.com/squid-protocol/gitgalaxy/blob/main/docs/self_scan/tri_comparison_README.md) |
+| **86.7–100% call-link precision** in 8 languages, vs compiler-grade reference analysers; recall is the open gap | [graph accuracy](https://github.com/squid-protocol/gitgalaxy/blob/main/docs/graph_accuracy.md) |
+| **Kubernetes (2.46M lines) in about 65 s**; most repositories in under a second | [single run, 2026-09-19](https://github.com/squid-protocol/gitgalaxy-raw-output) |
 
-GitGalaxy has evolved beyond a scanner into an **experimental platform for software research**.
+The limits are published next to the results: the numbers come from our own pinned benchmark corpora, and
+[the known blind spots](https://github.com/squid-protocol/gitgalaxy/blob/main/docs/known_blind_spots.md) are listed.
+We also pre-registered a test of whether code structure predicts defects. [It doesn't](https://github.com/squid-protocol/temporal-crucible); change history does.
 
-The system can rapidly turn a hypothesis into a corpus-scale experiment:
+### Study: DOOM's DNA
 
-`new idea → code → CI → benchmark → discrepancy → analysis → generalized implementation`
+<a href="https://github.com/squid-protocol/gitgalaxy/blob/main/docs/wiki/museum-of-code/teardown-of-doom.md"><img src="https://raw.githubusercontent.com/squid-protocol/gitgalaxy/main/docs/media/doom-ports.gif" width="100%" alt="DOOM's DNA: 16 programs on one chart, each showing how much of the original linuxdoom's wiring between its 16 parts it kept, against the same program shuffled as a chance baseline. C copies and the Scheme and Go translations keep the most; Java, Kotlin and C# keep none; rewrites from scratch and unrelated programs score no better than chance"></a>
 
-That feedback loop is deliberately fast.
+How much of the original game's design survives when DOOM is ported to another language? GitGalaxy mapped
+linuxdoom's 16 parts (777 functions, 1,605 calls), then measured 16 programs against a shuffled baseline. The Scheme
+and Go translations kept as much of the wiring as the closest C copy. Java, Kotlin and C# kept none, and rewrites
+from scratch score no better than chance. It measures code shape, not gameplay, and functions are assigned to parts by
+name, so it isn't a blind test. [Read the study](https://github.com/squid-protocol/gitgalaxy/blob/main/docs/wiki/museum-of-code/teardown-of-doom.md).
 
-It means I can test an architectural idea, discover where it fails, generalize the failure into a new capability, and run the experiment again — often within minutes rather than days.
+## Current R&D: CICS and COBOL to Java, with the evidence
 
-### Evidence & reproducibility
+Most AI modernization asks a model to translate a whole legacy application and hopes for the best. I'm building the
+opposite: a translator that ports CICS and batch COBOL by fixed rules, with no AI model writing the Java. Each ported
+program is then checked against the original COBOL on the same inputs for byte-identical output.
 
-I try to make technical claims independently inspectable rather than relying on demos.
+Every program gets an evidence record and a level, from L0 (inventoried) to L5 (every surviving mutant accounted for).
+[Current levels](https://github.com/squid-protocol/gitgalaxy/blob/generated/docs/language_status/progress.md) are
+regenerated from the code. The comparison runs on GnuCOBOL, not on a real z/OS mainframe, and I say so wherever I report
+a level.
 
-**Public evidence includes:**
+The question behind it: **how much of software transformation can be made deterministic before probabilistic AI is introduced?**
 
-- **[Raw repository scans & performance telemetry](https://github.com/squid-protocol/gitgalaxy-raw-output)** — unedited outputs from real repositories
-- **[COBOL → Java examples](https://github.com/squid-protocol/cobol_to_java_examples)** — multiple COBOL applications translated into compiling Spring Boot systems, with deterministic validation infrastructure
-- **[Language Crucible](https://github.com/squid-protocol/language-crucible)** — adversarial cross-language benchmark corpus
-- **[Keyword Rosetta](https://github.com/squid-protocol/keyword-rosetta)** — cross-language measurement and consistency controls
-- **[Population Analyses](https://github.com/squid-protocol/gitgalaxy-population-analyses)** — repository-scale statistical analysis
-- **[Squid Telemetry](https://github.com/squid-protocol/squid-telemetry)** — distribution and usage telemetry
-- **[Documentation & methodology](https://squid-protocol.github.io/gitgalaxy/)** — architecture, experiments, methodology, and results
+## [squid-bot](https://github.com/squid-protocol/squid-bot): a coding fleet that runs itself
 
-The goal is simple:
+GitGalaxy is largely built by a fleet of AI coding agents, and squid-bot is what keeps that fleet safe to run. I set the
+goals as an ordered list of issues. squid-bot starts agents only when the machine, the CI queue and the budget can take
+them, and gives each one its own isolated copy of the repo. Every change is screened, cheap checks first and the full
+test suite after, and only green changes are merged. When only a human can decide something, the question goes to my
+phone and the fleet keeps working on everything else.
+
+It reports its own costs as well as its output. From Oct 19 to 25 it merged 926 small PRs that closed 193 work items.
+Its first two weeks cost about $2 per merged PR and $11 per resolved issue. [The live dashboard](https://github.com/squid-protocol/squid-bot#-live-fleet-dashboard)
+also tracks CI load, how often `main` broke, and what is limiting the fleet each hour.
+
+## How I work
+
+I turn hard questions into fast, reproducible experiments. LLMs write most of my first drafts (through squid-bot). Whether a
+change stays is decided by tests, reference oracles, benchmark corpora and CI gates, and I make every claim checkable in public:
+
+- **[Raw output](https://github.com/squid-protocol/gitgalaxy-raw-output)**: unedited scans of hundreds of real repositories
+- **[Language Crucible](https://github.com/squid-protocol/language-crucible)** and **[Keyword Rosetta](https://github.com/squid-protocol/keyword-rosetta)**: the benchmark and cross-language control corpora behind the numbers above
+- **[COBOL → Java examples](https://github.com/squid-protocol/cobol_to_java_examples)**: 10 COBOL repositories (as of 2026-11-04) translated into compiling Spring Boot projects
+- **[Population analyses](https://github.com/squid-protocol/gitgalaxy-population-analyses)** and **[telemetry](https://github.com/squid-protocol/squid-telemetry)**: statistics over the scan population, and public usage numbers
 
 > **If I make an interesting claim, I want the machinery needed to investigate it to be public.**
 
----
+Teaching shaped this. A decade in the classroom trained me to break complicated systems into models people can follow,
+and to keep asking *"what evidence would convince us?"* ([teaching portfolio](https://github.com/squid-protocol/teaching-portfolio), with 40+ student testimonials).
 
-# 🚀 Current R&D: Software Transformation
+## Classroom science games
 
-One of the most interesting applications of the structural representation is **legacy modernization**.
+I still build for the classroom: phone games a whole class can play together in a few minutes, each built around one
+idea students usually only hear about.
 
-I'm developing a deterministic COBOL → Java pipeline that combines:
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://glucose.fastmathfacts.io/"><img src="assets/glucose-game.png" alt="Cellular Respiration: The Game. Students join their class game with a 4-letter code, then move glowing electron pairs out of glucose into NADH and FADH2 and turn their energy into 38 ATP"></a>
 
-**program structure → business-logic slicing → target architecture → constrained generation → compilation → behavioral validation**
+**[Cellular Respiration: The Game](https://glucose.fastmathfacts.io/)**: students join on their phones with a class
+code and race to pull the energy out of glucose, moving electron pairs into NADH and FADH₂ and turning them into 38 ATP.
+Built for my intro biology course. You can also play alone against two computer cells.
+</td>
+<td width="50%" valign="top">
+<a href="https://sixthsense.fastmathfacts.io/"><img src="assets/sixthsense.gif" alt="Sixth Sense: two stick figures, a watcher and a watched person facing a wall, each holding a phone. When the watcher looks and the watched person holds the button, it shows a match; when only the watcher looks, a miss. Timing bars fill below"></a>
 
-Rather than asking an LLM to translate an entire legacy application and hoping for the best, the system attempts to make as much of the transformation deterministic as possible before the LLM is introduced.
+**[Sixth Sense](https://sixthsense.fastmathfacts.io/)**: can you feel someone staring at your back? Two people, two
+phones: one holds a button while looking, the other while they feel watched. The real lesson is telling an effect from
+luck. Each run is scored against 999 bots that press the same way at random times, a permutation test explained in
+one sentence.
+</td>
+</tr>
+</table>
 
-The LLM becomes a component inside a larger engineered process rather than the entire process.
+## Other things I've built
 
-I've also been building equivalence harnesses and corpus-level validation to test whether transformed programs actually preserve exercised behavior.
+- **[Helping Farmers Farm](https://github.com/squid-protocol/help_farmers_farm)**: volunteer scheduling, farm management and digital waivers for work-share CSA farms. Used by a farm for 3+ years. [Website](https://www.helpingfarmersfarm.com) · [demo](https://www.youtube.com/watch?v=VSIW91JPdyw)
+- **[Meow Turtle](https://github.com/squid-protocol/meow-turtle)**: distributed control over RS-485, with an async Python digital-twin host driving bare-metal MicroPython nodes in a small-parts sorter. [Demo](https://www.youtube.com/shorts/_lPySIKtxEk)
+- **[Sorting evolution](https://github.com/squid-protocol/sorting_evolution_algorithm)**: genetic algorithms over headless physics simulation to design the vibrating sorters Meow Turtle now runs. [Demo](https://www.youtube.com/watch?v=e0uPb7Tg9FI)
+- **[Fast Math Facts](https://fastmathfacts.io/)**: math practice that separates mastery from effort, with millisecond timing and an international leaderboard. [Demo](https://youtube.com/shorts/G3fbgRJeNOc)
 
-This has led to a broader research question:
+## What I'm looking for
 
-> **How much of software transformation can be made deterministic before probabilistic AI is introduced?**
+Hard, poorly solved problems in **program analysis, legacy modernization, AI/LLM systems, and scientific computing**:
+the ones where nobody yet knows the best way to solve them.
 
----
+**I'm curious by default, and I really like finding out whether an idea actually works.**
 
-# 🤖 AI-Augmented R&D
-
-I use LLMs extensively, but I don't think of them primarily as autonomous programmers.
-
-I use them as **high-bandwidth engineering collaborators** for:
-
-- implementation
-- code exploration
-- architectural criticism
-- experiment generation
-- test generation
-- adversarial analysis
-- documentation
-- rapid prototyping
-
-The important layer is the infrastructure around them.
-
-LLMs can generate enormous amounts of code very quickly. The harder problem is building systems that can **rapidly determine whether that code is correct, useful, generalizable, and robust**.
-
-That is where my development process increasingly focuses.
-
----
-
-# 🔬 Other Systems I've Built
-
-## [Helping Farmers Farm](https://github.com/squid-protocol/help_farmers_farm)
-
-<a href="https://www.youtube.com/watch?v=VSIW91JPdyw"><img src="https://img.youtube.com/vi/VSIW91JPdyw/0.jpg" alt="Helping Farmers Farm Demo" width="300"></a>
-
-A deployed platform connecting community volunteers with local farms participating in work-share CSA programs.
-
-Includes volunteer scheduling, farm management, seasonal commitments, and digital liability waivers.
-
-**Status:** Deployed and used by a farm for 3+ years.
-
-[Website](https://www.helpingfarmersfarm.com)
-
----
-
-## [Meow Turtle — Distributed Robotics & SCADA](https://github.com/squid-protocol/meow-turtle)
-
-<a href="https://www.youtube.com/shorts/_lPySIKtxEk"><img src="https://img.youtube.com/vi/_lPySIKtxEk/hqdefault.jpg" alt="Meow Turtle SCADA Demo" width="300"></a>
-
-A lightweight distributed control system for physical automation over RS-485.
-
-Uses an asynchronous Python digital-twin host to coordinate deterministic bare-metal MicroPython nodes, currently implemented as a small-parts sorting system.
-
-**Status:** Functional physical system with stable control middleware.
-
----
-
-## [Evolutionary Algorithm for Part-Sorting Machinery](https://github.com/squid-protocol/sorting_evolution_algorithm)
-
-<a href="https://www.youtube.com/watch?v=e0uPb7Tg9FI"><img src="https://img.youtube.com/vi/e0uPb7Tg9FI/0.jpg" alt="Sorting Evolution Algorithm Demo" width="300"></a>
-
-A custom evolutionary optimization and machine-learning pipeline for designing physical vibrating sorting mechanisms.
-
-The system combines:
-
-- genetic algorithms
-- headless physics simulation
-- parallel simulation workers
-- dimensionality reduction
-- fitness-landscape analysis
-- Monte Carlo stress testing
-
-The resulting optimized designs were subsequently implemented in the physical **Meow Turtle** system.
-
----
-
-## [Fast Math Facts](https://github.com/squid-protocol/math_facts)
-
-<a href="https://youtube.com/shorts/G3fbgRJeNOc"><img src="https://img.youtube.com/vi/G3fbgRJeNOc/0.jpg" alt="Fast Math Facts Demo" width="300"></a>
-
-A deployed gamified mathematics practice system designed around measurable learning progress.
-
-It separates **mastery** from **effort**, uses adaptive game modes to target weaknesses, provides millisecond-level timing and feedback, and exposes performance through an international leaderboard.
-
-**[Website](https://fastmathfacts.io/)**
-
----
-
-# 🎓 Research, Teaching & Communication
-
-## [Teaching Portfolio](https://github.com/squid-protocol/teaching-portfolio)
-
-I spent a decade as a tenured Biology Professor and have roughly a decade of pharmacology research experience.
-
-That background still strongly influences how I build software.
-
-Teaching trained me to:
-
-- decompose complicated systems into understandable models
-- communicate technical ideas to very different audiences
-- identify misconceptions
-- design experiments that reveal whether someone actually understands something
-- continually ask **"what evidence would convince us?"**
-
-My teaching portfolio contains 40+ real student testimonials documenting that side of my career.
-
-I don't see the research/teaching background as separate from my engineering work.
-
-**It is part of how I approach engineering.**
-
----
-
-# 🧠 What I'm Looking For
-
-I'm particularly interested in **hard, poorly solved technical problems** where software, computation, research, and system design overlap.
-
-I'm interested in work involving:
-
-- computational R&D
-- AI/LLM systems
-- program analysis
-- software intelligence
-- legacy modernization
-- cybersecurity
-- scientific computing
-- optimization
-- simulation
-- robotics / physical systems
-- unusual data-analysis problems
-- building new technical abstractions from first principles
-
-I'm especially interested in environments where the question is not simply:
-
-> *"Can you implement the specification?"*
-
-but:
-
-> **"We don't know the best way to solve this yet. Can you figure it out?"**
-
----
-
-## 📫 Let's Connect
-
-If you're working on a difficult technical problem and think my background might be useful, I'd love to hear about it.
-
-**I'm curious by default. I like hard problems. And I really like finding out whether an idea actually works.**
+📧 **[joe@gitgalaxy.io](mailto:joe@gitgalaxy.io)**
