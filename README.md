@@ -97,19 +97,14 @@ idea students usually only hear about.
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://glucose.fastmathfacts.io/"><img src="assets/glucose-game.png" alt="Cellular Respiration: The Game. Students join their class game with a 4-letter code, then move glowing electron pairs out of glucose into NADH and FADH2 and turn their energy into 38 ATP"></a>
+<a href="https://glucose.fastmathfacts.io/"><img src="assets/glucose-game.png" width="300" alt="Cellular Respiration: The Game. Students join their class game with a 4-letter code, then move glowing electron pairs out of glucose into NADH and FADH2 and turn their energy into 38 ATP"></a>
 
-**[Cellular Respiration: The Game](https://glucose.fastmathfacts.io/)**: students join on their phones with a class
-code and race to pull the energy out of glucose, moving electron pairs into NADH and FADH₂ and turning them into 38 ATP.
-Built for my intro biology course. You can also play alone against two computer cells.
+**[Cellular Respiration: The Game](https://glucose.fastmathfacts.io/)**: students join on their phones with a class code and race to pull the energy out of glucose, moving electron pairs into NADH and FADH₂ and turning them into 38 ATP. Built for my intro biology course. You can also play alone against two computer cells.
 </td>
 <td width="50%" valign="top">
-<a href="https://sixthsense.fastmathfacts.io/"><img src="assets/sixthsense.gif" alt="Sixth Sense: two stick figures, a watcher and a watched person facing a wall, each holding a phone. When the watcher looks and the watched person holds the button, it shows a match; when only the watcher looks, a miss. Timing bars fill below"></a>
+<a href="https://sixthsense.fastmathfacts.io/"><img src="assets/sixthsense.gif" width="220" alt="Sixth Sense: two stick figures, a watcher and a watched person facing a wall, each holding a phone. When the watcher looks and the watched person holds the button, it shows a match; when only the watcher looks, a miss. Timing bars fill below"></a>
 
-**[Sixth Sense](https://sixthsense.fastmathfacts.io/)**: can you feel someone staring at your back? Two people, two
-phones: one holds a button while looking, the other while they feel watched. The real lesson is telling an effect from
-luck. Each run is scored against 999 bots that press the same way at random times, a permutation test explained in
-one sentence.
+**[Sixth Sense](https://sixthsense.fastmathfacts.io/)**: can you feel someone staring at your back? Two people, two phones: one holds a button while looking, the other while they feel watched. The real lesson is telling an effect from luck. Each run is scored against 999 bots that press the same way at random times, a permutation test explained in one sentence.
 </td>
 </tr>
 </table>
@@ -143,8 +138,7 @@ one sentence.
 
 ## What I'm looking for
 
-Hard, poorly solved problems in **program analysis, legacy modernization, AI/LLM systems, and scientific computing**:
-the ones where nobody yet knows the best way to solve them.
+Hard, poorly solved problems in **program analysis, legacy modernization, AI/LLM systems, and scientific computing**: the ones where nobody yet knows the best way to solve them.
 
 **I'm curious by default, and I really like finding out whether an idea actually works.**
 
