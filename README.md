@@ -97,34 +97,48 @@ idea students usually only hear about.
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://glucose.fastmathfacts.io/"><img src="assets/glucose-game.png" alt="Cellular Respiration: The Game. Students join their class game with a 4-letter code, then move glowing electron pairs out of glucose into NADH and FADH2 and turn their energy into 38 ATP"></a>
+<a href="https://glucose.fastmathfacts.io/"><img src="assets/glucose-game.png" width="300" alt="Cellular Respiration: The Game. Students join their class game with a 4-letter code, then move glowing electron pairs out of glucose into NADH and FADH2 and turn their energy into 38 ATP"></a>
 
-**[Cellular Respiration: The Game](https://glucose.fastmathfacts.io/)**: students join on their phones with a class
-code and race to pull the energy out of glucose, moving electron pairs into NADH and FADH₂ and turning them into 38 ATP.
-Built for my intro biology course. You can also play alone against two computer cells.
+**[Cellular Respiration: The Game](https://glucose.fastmathfacts.io/)**: students join on their phones with a class code and race to pull the energy out of glucose, moving electron pairs into NADH and FADH₂ and turning them into 38 ATP. Built for my intro biology course. You can also play alone against two computer cells.
 </td>
 <td width="50%" valign="top">
-<a href="https://sixthsense.fastmathfacts.io/"><img src="assets/sixthsense.gif" alt="Sixth Sense: two stick figures, a watcher and a watched person facing a wall, each holding a phone. When the watcher looks and the watched person holds the button, it shows a match; when only the watcher looks, a miss. Timing bars fill below"></a>
+<a href="https://sixthsense.fastmathfacts.io/"><img src="assets/sixthsense.gif" width="220" alt="Sixth Sense: two stick figures, a watcher and a watched person facing a wall, each holding a phone. When the watcher looks and the watched person holds the button, it shows a match; when only the watcher looks, a miss. Timing bars fill below"></a>
 
-**[Sixth Sense](https://sixthsense.fastmathfacts.io/)**: can you feel someone staring at your back? Two people, two
-phones: one holds a button while looking, the other while they feel watched. The real lesson is telling an effect from
-luck. Each run is scored against 999 bots that press the same way at random times, a permutation test explained in
-one sentence.
+**[Sixth Sense](https://sixthsense.fastmathfacts.io/)**: can you feel someone staring at your back? Two people, two phones: one holds a button while looking, the other while they feel watched. The real lesson is telling an effect from luck. Each run is scored against 999 bots that press the same way at random times, a permutation test explained in one sentence.
 </td>
 </tr>
 </table>
 
 ## Other things I've built
 
-- **[Helping Farmers Farm](https://github.com/squid-protocol/help_farmers_farm)**: volunteer scheduling, farm management and digital waivers for work-share CSA farms. Used by a farm for 3+ years. [Website](https://www.helpingfarmersfarm.com) · [demo](https://www.youtube.com/watch?v=VSIW91JPdyw)
-- **[Meow Turtle](https://github.com/squid-protocol/meow-turtle)**: distributed control over RS-485, with an async Python digital-twin host driving bare-metal MicroPython nodes in a small-parts sorter. [Demo](https://www.youtube.com/shorts/_lPySIKtxEk)
-- **[Sorting evolution](https://github.com/squid-protocol/sorting_evolution_algorithm)**: genetic algorithms over headless physics simulation to design the vibrating sorters Meow Turtle now runs. [Demo](https://www.youtube.com/watch?v=e0uPb7Tg9FI)
-- **[Fast Math Facts](https://fastmathfacts.io/)**: math practice that separates mastery from effort, with millisecond timing and an international leaderboard. [Demo](https://youtube.com/shorts/G3fbgRJeNOc)
+<sub>Click a picture for its demo video.</sub>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://www.youtube.com/watch?v=VSIW91JPdyw"><img src="https://img.youtube.com/vi/VSIW91JPdyw/0.jpg" width="220" alt="Helping Farmers Farm demo video"></a><br />
+<strong><a href="https://github.com/squid-protocol/help_farmers_farm">Helping Farmers Farm</a></strong>: volunteer scheduling, farm management and digital waivers for work-share CSA farms. <strong>Used by a farm for 3+ years.</strong> <a href="https://www.helpingfarmersfarm.com">Website</a>
+</td>
+<td width="50%" valign="top">
+<a href="https://www.youtube.com/shorts/_lPySIKtxEk"><img src="https://img.youtube.com/vi/_lPySIKtxEk/hqdefault.jpg" width="220" alt="Meow Turtle sorting machine demo video"></a><br />
+<strong><a href="https://github.com/squid-protocol/meow-turtle">Meow Turtle</a></strong>: distributed control over RS-485, with an async Python digital-twin host driving bare-metal MicroPython nodes in a small-parts sorter. 
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://www.youtube.com/watch?v=e0uPb7Tg9FI"><img src="https://img.youtube.com/vi/e0uPb7Tg9FI/0.jpg" width="220" alt="Sorting evolution algorithm demo video"></a><br />
+<strong><a href="https://github.com/squid-protocol/sorting_evolution_algorithm">Sorting evolution</a></strong>: genetic algorithms over headless physics simulation to design the vibrating sorters Meow Turtle now runs. 
+</td>
+<td width="50%" valign="top">
+<a href="https://youtube.com/shorts/G3fbgRJeNOc"><img src="https://img.youtube.com/vi/G3fbgRJeNOc/0.jpg" width="220" alt="Fast Math Facts demo video"></a><br />
+<strong><a href="https://fastmathfacts.io/">Fast Math Facts</a></strong>: math practice that separates mastery from effort, with millisecond timing and an international leaderboard. <a href="https://fastmathfacts.io/">Website</a>
+</td>
+</tr>
+</table>
 
 ## What I'm looking for
 
-Hard, poorly solved problems in **program analysis, legacy modernization, AI/LLM systems, and scientific computing**:
-the ones where nobody yet knows the best way to solve them.
+Hard, poorly solved problems in **program analysis, legacy modernization, AI/LLM systems, and scientific computing**: the ones where nobody yet knows the best way to solve them.
 
 **I'm curious by default, and I really like finding out whether an idea actually works.**
 
