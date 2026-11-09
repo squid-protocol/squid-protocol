@@ -89,6 +89,31 @@ change stays is decided by tests, reference oracles, benchmark corpora and CI ga
 Teaching shaped this. A decade in the classroom trained me to break complicated systems into models people can follow,
 and to keep asking *"what evidence would convince us?"* ([teaching portfolio](https://github.com/squid-protocol/teaching-portfolio), with 40+ student testimonials).
 
+## Classroom science games
+
+I still build for the classroom: phone games a whole class can play together in a few minutes, each built around one
+idea students usually only hear about.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://glucose.fastmathfacts.io/"><img src="assets/glucose-game.png" alt="Cellular Respiration: The Game. Students join their class game with a 4-letter code, then move glowing electron pairs out of glucose into NADH and FADH2 and turn their energy into 38 ATP"></a>
+
+**[Cellular Respiration: The Game](https://glucose.fastmathfacts.io/)**: students join on their phones with a class
+code and race to pull the energy out of glucose, moving electron pairs into NADH and FADH₂ and turning them into 38 ATP.
+Built for my intro biology course. You can also play alone against two computer cells.
+</td>
+<td width="50%" valign="top">
+<a href="https://sixthsense.fastmathfacts.io/"><img src="assets/sixthsense.gif" alt="Sixth Sense: two stick figures, a watcher and a watched person facing a wall, each holding a phone. When the watcher looks and the watched person holds the button, it shows a match; when only the watcher looks, a miss. Timing bars fill below"></a>
+
+**[Sixth Sense](https://sixthsense.fastmathfacts.io/)**: can you feel someone staring at your back? Two people, two
+phones: one holds a button while looking, the other while they feel watched. The real lesson is telling an effect from
+luck. Each run is scored against 999 bots that press the same way at random times, a permutation test explained in
+one sentence.
+</td>
+</tr>
+</table>
+
 ## Other things I've built
 
 - **[Helping Farmers Farm](https://github.com/squid-protocol/help_farmers_farm)**: volunteer scheduling, farm management and digital waivers for work-share CSA farms. Used by a farm for 3+ years. [Website](https://www.helpingfarmersfarm.com) · [demo](https://www.youtube.com/watch?v=VSIW91JPdyw)
